@@ -1,0 +1,130 @@
+@charset 'utf-8';
+/* 手机 */
+ @media screen and (max-width:1180px){
+    #box{
+        width: 1280px;
+    }
+ }
+
+/* 定义右上角新闻的动画帧 */
+@keyframes tips{
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(-54px);
+    }
+    50%{
+        transform: translateY(-54px);
+    }
+    75%{
+        transform: translateY(-108px);
+    }
+    100%{
+        transform: translateY(-108px);
+    }
+}
+
+/* 定义妖怪屋动画帧 */
+@keyframes yaoguaiwu{
+    0%{
+        background-position: center 0%;
+    }
+    99%{
+        background-position: center 8900%;
+    }
+}
+
+/* 定义小怪物动画帧 */
+@keyframes XiaoGuai_All{
+    0%{
+        transform: translate(-200px,0);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(100%,0);
+        opacity: 0;
+    }
+}
+
+@keyframes XiaoGuai{
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 200% 0;
+    }
+}
+
+/* 定义下载游戏横条动画帧 */
+@keyframes Line_Go{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 100%;
+    }
+}
+
+/* 定义资讯指针动画帧 */
+@keyframes ZiXun{
+    0%{
+        margin-right: 0;
+    }
+    18.8%{
+        margin-right: 9px;
+    }
+    36.6%{
+        margin-right: 0px;
+    }
+    54.4%{
+        margin-right: 6px;
+    }
+    72.2%{
+        margin-right: 0px;
+    }
+    86.6%{
+        margin-right: 3px;
+    }
+    100%{
+        margin-right: 0px;
+    }
+}
+@keyframes ZiXun2{
+    0%{
+        transform: translateX(0);
+    }
+    18.8%{
+        transform: translateX(-9px);
+    }
+    36.6%{
+        transform: translateX(0);
+    }
+    54.4%{
+        transform: translateX(-6px);
+    }
+    72.2%{
+        transform: translateX(0);
+    }
+    86.6%{
+        transform: translateX(-3px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+/* 定义底部动画帧 */
+@keyframes shine{
+    0%{
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    30%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(1.2);
+    }
+
+}
